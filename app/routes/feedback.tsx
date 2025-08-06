@@ -75,7 +75,9 @@ const Feedback = () => {
                             <Details feedback={feedback}/>
                         </div>
                     ) : (
-                        <img src="/images/resume-scan-2.gif" alt="Resume Scan" className="w-full"/>
+                        <div className="flex items-center justify-center w-full h-full">
+                            <img src="/images/resume-scan-2.gif" alt="Resume Scan" className="w-80"/>
+                        </div>
                     )}
                 </section>
             </div>
